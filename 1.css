@@ -1,0 +1,262 @@
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    color: rgb(46, 24, 9);
+    font-family: helvetica;
+    }
+    li{ display: inline-block;
+        font-size: 20px;
+        margin: 0 40px;
+
+        transition: color 0.2s linear;
+    }
+    .menu{
+        margin-top: -170px;
+        margin-left: 50%;
+    }
+    .search{
+        margin-top: -50px;
+        margin-left: 630px;
+    }
+    *{box-sizing: border-box;}
+    form{
+        border-radius: 25px;
+        position: relative;
+        width: 200px;
+        margin: 0 auto;
+        background: #472910;
+    }
+    input, button{
+        border: none;
+        outline: none;
+        background: transparent;
+    }
+    input{
+        width: 100%;
+        height: 42px;
+        padding-left: 15px;
+    }
+    .but1{
+        margin-top: 3px;
+        margin-right: 10px;
+        height: 35px;
+        width: 35px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+    }
+    .but1::before{
+        content: url("0.2.png");
+        font-family: fontAwesome;
+        font-size: 16px;
+        color: #f9f0da;
+    }
+    a{
+        text-decoration: none;
+        color: #9e4c1f ;
+    }
+    .podmenu{
+        margin-top: 40px;
+    }
+    .h1{
+        font-size: 80px;
+        color: rgb(99, 66, 40);
+        margin-top: -950px;
+        margin-left: 200px;
+    }
+    .h2{
+        letter-spacing: 2px;
+        margin-top: -70px;
+        margin-left: 200px;
+        color: #440e20;
+    }
+    .h3{
+        text-align: center;
+        font-size: 55px;
+        margin-top: 60px;
+        margin-left: 200px;
+        letter-spacing: 1px;
+        color: #57301b;
+    }
+    .but2{
+        text-align: center;
+        font-size: 50px;
+        margin-left: 0px;
+        height: 35px;
+        width: 35px;
+        position: absolute;
+        cursor: pointer;
+        border-radius: 25px;
+        position: relative;
+        height: 80px;
+        width: 300px;
+        background: #ffffff;
+        
+    }
+    .h2-1{
+        font-size: 80px;
+        margin-left: 50px;
+        color: orange;
+        text-align: center;
+    }
+    .h2-2{
+        text-align: center;
+        color: #86776f;
+        letter-spacing: 10px;
+
+    }
+    .foto1{
+        margin-left: 200px;
+        position: relative;
+        width: 339px;
+        height: 550px;
+        background: #83532c;
+    }
+    .foto2{
+        margin-top: -550px;
+        margin-left: 800px;
+        position: relative;
+        width: 339px;
+        height: 550px;
+        background: #83532c;
+    }
+    .foto3{
+        margin-top: -550px;
+        margin-left: 1400px;
+        position: relative;
+        width: 339px;
+        height: 550px;
+        background: #83532c;
+    }
+    .h3-1{
+        color: white;
+        margin-left: 10px;
+    }
+    .h3-2{
+        color: white;
+        margin-left: 10px;
+    }
+    .h3-3{
+        color: white;
+        margin-left: 10px;
+    }
+    .h3-4{
+        letter-spacing: 1px;
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;
+    }
+    .h3-5{
+        letter-spacing: 1px;
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;
+    }
+    .h3-6{
+        letter-spacing: 1px;
+        font-size: 20px;
+        color: white;
+        margin-left: 10px;
+    }
+    .h3-7{
+        text-align: center;
+        font-size: 50px;
+        margin-top: 50px;
+        margin-left: 800px;
+        letter-spacing: 1px;
+        color: #ffffff;
+    }
+    .but3{
+        text-align: center;
+        font-size: 50px;
+        margin-left: 0px;
+        height: 35px;
+        width: 35px;
+        position: absolute;
+        cursor: pointer;
+        border-radius: 25px;
+        position: relative;
+        height: 80px;
+        width: 300px;
+        background: #86776f;
+        
+    }
+    .h4-1{
+        font-size: 70px;
+        margin-top: -1000px;
+        margin-left: 800px;
+        color: rgb(70, 175, 201);
+    }
+    .border {
+        list-style: none;
+        padding: 0;
+        }
+        .border li {
+        font-family: "Trebuchet MS", "Lucida Sans";
+        margin-top: 80px;
+        margin-left: 6px;
+        padding: 20px 20px;
+        margin-bottom: 70px;
+    
+        border-radius: 15px;
+        border-left: 10px solid #f05d22; 
+        box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+             -2px -2px 5px 0 rgba(0,0,0,.1),
+            2px 2px 5px 0 rgba(0,0,0,.1),
+            -2px 2px 5px 0 rgba(0,0,0,.1);
+        font-size: 20px;
+        letter-spacing: 4px;
+        transition: 0.2s all linear;
+        }
+        .border li:nth-child(2){border-color: #8bc63e;}
+        .border li:nth-child(3){border-color: #fcba30;}
+        .border li:nth-child(4){border-color: #1ccfc9;}
+        .border li:nth-child(5){border-color: #493224;}
+        .border li:hover {border-left: 10px solid transparent;}
+        .border li:nth-child(1):hover {border-right: 10px solid #f05d22;}
+        .border li:nth-child(2):hover {border-right: 10px solid #8bc63e;}
+        .border li:nth-child(3):hover {border-right: 10px solid #fcba30;}
+        .border li:nth-child(4):hover {border-right: 10px solid #1ccfc9;}
+        .border li:nth-child(5):hover {border-right: 10px solid #493224;}
+    .h4-3{
+        font-size: 50px;
+        margin-top: -1000px;
+        margin-left: 200px;
+        color: rgb(66, 47, 30);
+    }
+    .h4-4{
+        font-size: 30px;
+        margin-top: 0px;
+        margin-left: 70px;
+        color: rgb(66, 47, 30);
+    }
+    .h4-5{
+        font-size: 50px;
+        margin-left: 50px;
+        color: rgb(82, 46, 31);
+        text-align: center;
+        margin-top: -360px;
+        margin-left: -600px;
+    }
+    .h4-6{
+        font-size: 30px;
+        margin-top:00px;
+        margin-left: 70px;
+        color: rgb(66, 47, 30);
+    }
+    .foto1-3{
+        margin-left: 200px;
+        position: relative;
+        width: 500px;
+        height: 500px;
+        background: #83532c;
+    }
